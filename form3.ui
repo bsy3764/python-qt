@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>551</width>
+    <height>389</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="file">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>121</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>파일 선택</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="save">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>20</y>
+     <width>121</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>저장</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="gray">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>20</y>
+     <width>101</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>GrayScale</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="invert">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>50</y>
+     <width>101</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>invert</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="sharpen">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>20</y>
+     <width>112</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>shrpen</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="blur">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>50</y>
+     <width>112</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Blur</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="none">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>80</y>
+     <width>112</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>None</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl1">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>140</y>
+     <width>240</width>
+     <height>230</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl2">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>140</y>
+     <width>240</width>
+     <height>230</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QSlider" name="slider">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>110</y>
+     <width>251</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="sliderShow">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>80</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="sliderCheck">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>100</y>
+     <width>271</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
